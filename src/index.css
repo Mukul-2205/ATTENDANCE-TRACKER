@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.present-day {
+    background-color: rgba(14, 213, 14, 0.838) !important; /* Tailwind green-200 */
+    color: black;
+  }
+  .absent-day {
+    background-color: #eb0c0c !important; /* Tailwind red-200 */
+    /*  */
+    color: black;
+  }
+  
+/* Full-size calendar styling */
+.react-calendar {
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+  }
+  
+  .react-calendar__month-view__weekdays {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e7eb; /* light gray */
+  }
+  
+  .react-calendar__month-view__days {
+    display: grid !important;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1px;
+  }
+  
+  .react-calendar__tile {
+    padding: 1.5rem 0;
+    text-align: center;
+    border: 1px solid #02060c; /* light gray */
+    box-sizing: border-box;
+  }
