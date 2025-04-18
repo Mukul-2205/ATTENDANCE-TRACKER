@@ -7,13 +7,13 @@ const Landing = () => {
         <div className="bg-white dark:bg-gray-900 h-screen flex items-center justify-center overflow-hidden">
             <div className="w-full text-center px-4">
                 <span className="font-medium inline-flex justify-center items-center mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 px-5 py-3">
-                    Flowbite is out! See what's new
+                    Keep a track of maintaining 75% attendance!!😎
                 </span>
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                     Welcome to the Attendance Tracker
                 </h1>
                 <p className="mb-8 text-lg font-normal text-gray-600 lg:text-xl dark:text-gray-400">
-                    Effortlessly monitor and manage attendance for your students with our smart dashboard.
+                    Streamline your college attendance with our intuitive dashboard and never worry about missing classes again!!🥳
                 </p>
                 <div className="flex flex-col justify-center items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                     <button className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800">
