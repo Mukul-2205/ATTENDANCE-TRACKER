@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Landing = () => {
-    
+
     return (
         <div className="bg-white dark:bg-gray-900 h-screen flex items-center justify-center overflow-hidden">
             <div className="w-full text-center px-4">
@@ -16,17 +16,15 @@ const Landing = () => {
                     Streamline your college attendance with our intuitive dashboard and never worry about missing classes again!!🥳
                 </p>
                 <div className="flex flex-col justify-center items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                    <button className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800">
-                        <Link to={'/login'}>Get Started </Link> 
+                    <Link
+                        to="/login"
+                        className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+                    >
+                        Get Started
                         <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 
-                            6a1 1 0 010 1.414l-6 6a1 1 0 
-                            01-1.414-1.414L14.586 11H3a1 1 
-                            0 110-2h11.586l-4.293-4.293a1 
-                            1 0 010-1.414z" clipRule="evenodd" />
+                            <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
-
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
